@@ -1,5 +1,5 @@
 <?php
-$conn =new mysqli('localhost','homelan9_admin','homeland2023#','homelan9_shipping');
+$conn =new mysqli('localhost');
 
 if(!$conn){
     die(mysqli_error($conn));
