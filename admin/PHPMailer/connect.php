@@ -1,5 +1,5 @@
 <?php
-$conn =new mysqli('localhost','southcel_user','Boateng2019#','southcel_shipping');
+$conn =new mysqli('localhost');
 
 if(!$conn){
     die(mysqli_error($conn));
